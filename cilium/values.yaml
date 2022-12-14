@@ -1,0 +1,4 @@
+eni.enabled: true
+ipam.mode: eni
+egressMasqueradeInterfaces: eth0
+tunnel: disabled
