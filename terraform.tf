@@ -3,10 +3,10 @@ terraform {
 
   backend "s3" {
     bucket = "pattp-tf-state"
-    key    = "playgroud/terraform.tfstate"
+    key    = "playground/terraform.tfstate"
     region = "ap-southeast-1"
 
-    dynamodb_table = "tf-locking"
+    dynamodb_table = "terraform_locks"
     encrypt = true
   }
 
